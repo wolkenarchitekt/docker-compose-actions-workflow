@@ -6,5 +6,5 @@ services:
     ports:
       - "5000:5000"
   redis:
-    container_name: redis-backendx
-    image: "redis:alpine"
+    container_name: redis-backend
+    image: "redis:alpinex"
